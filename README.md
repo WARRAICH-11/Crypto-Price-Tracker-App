@@ -8,7 +8,7 @@ A real-time cryptocurrency price tracking dashboard with comprehensive technical
 
 [**View Live App**](https://warraich-11.github.io/Crypto-Price-Tracker-App/)
 
-![Crypto Price Tracker Dashboard](https://github.com/WARRAICH-11/Crypto-Price-Tracker-App/assets/dashboard-screenshot.png)
+![Crypto Price Tracker Dashboard](https://github.com/WARRAICH-11/Crypto-Price-Tracker-App/src/assets/dashboard-screenshot.png)
 
 *Real-time BNBUSDC price tracking with technical indicators, Fear & Greed Index, and alert notifications*
 
