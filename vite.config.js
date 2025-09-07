@@ -8,4 +8,7 @@ export default defineConfig({
     prefix: "mgx",
   }), react()],
   base: '/Crypto-Price-Tracker-App/',
+  build: {
+    outDir: 'docs'
+  },
 })
