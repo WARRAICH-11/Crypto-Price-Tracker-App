@@ -7,8 +7,9 @@ export default defineConfig({
   plugins: [viteSourceLocator({
     prefix: "mgx",
   }), react()],
-  base: '/Crypto-Price-Tracker-App/',
+  base: './',
   build: {
-    outDir: 'docs'
+    outDir: 'docs',
+    assetsDir: './'
   },
 })
