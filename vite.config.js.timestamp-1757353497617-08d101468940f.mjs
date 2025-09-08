@@ -1,0 +1,18 @@
+// vite.config.js
+import { defineConfig } from "file:///C:/Users/admin/Desktop/Crypto%20Price%20Tracker%20App/node_modules/vite/dist/node/index.js";
+import react from "file:///C:/Users/admin/Desktop/Crypto%20Price%20Tracker%20App/node_modules/@vitejs/plugin-react/dist/index.js";
+import { viteSourceLocator } from "file:///C:/Users/admin/Desktop/Crypto%20Price%20Tracker%20App/node_modules/@metagptx/vite-plugin-source-locator/dist/index.mjs";
+var vite_config_default = defineConfig({
+  plugins: [viteSourceLocator({
+    prefix: "mgx"
+  }), react()],
+  base: "./",
+  build: {
+    outDir: "docs",
+    assetsDir: "./"
+  }
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJDOlxcXFxVc2Vyc1xcXFxhZG1pblxcXFxEZXNrdG9wXFxcXENyeXB0byBQcmljZSBUcmFja2VyIEFwcFwiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9maWxlbmFtZSA9IFwiQzpcXFxcVXNlcnNcXFxcYWRtaW5cXFxcRGVza3RvcFxcXFxDcnlwdG8gUHJpY2UgVHJhY2tlciBBcHBcXFxcdml0ZS5jb25maWcuanNcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfaW1wb3J0X21ldGFfdXJsID0gXCJmaWxlOi8vL0M6L1VzZXJzL2FkbWluL0Rlc2t0b3AvQ3J5cHRvJTIwUHJpY2UlMjBUcmFja2VyJTIwQXBwL3ZpdGUuY29uZmlnLmpzXCI7aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZSdcclxuaW1wb3J0IHJlYWN0IGZyb20gJ0B2aXRlanMvcGx1Z2luLXJlYWN0J1xyXG5pbXBvcnQgeyB2aXRlU291cmNlTG9jYXRvciB9IGZyb20gXCJAbWV0YWdwdHgvdml0ZS1wbHVnaW4tc291cmNlLWxvY2F0b3JcIjtcclxuXHJcbi8vIGh0dHBzOi8vdml0ZWpzLmRldi9jb25maWcvXHJcbmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7XHJcbiAgcGx1Z2luczogW3ZpdGVTb3VyY2VMb2NhdG9yKHtcclxuICAgIHByZWZpeDogXCJtZ3hcIixcclxuICB9KSwgcmVhY3QoKV0sXHJcbiAgYmFzZTogJy4vJyxcclxuICBidWlsZDoge1xyXG4gICAgb3V0RGlyOiAnZG9jcycsXHJcbiAgICBhc3NldHNEaXI6ICcuLydcclxuICB9LFxyXG59KVxyXG4iXSwKICAibWFwcGluZ3MiOiAiO0FBQStVLFNBQVMsb0JBQW9CO0FBQzVXLE9BQU8sV0FBVztBQUNsQixTQUFTLHlCQUF5QjtBQUdsQyxJQUFPLHNCQUFRLGFBQWE7QUFBQSxFQUMxQixTQUFTLENBQUMsa0JBQWtCO0FBQUEsSUFDMUIsUUFBUTtBQUFBLEVBQ1YsQ0FBQyxHQUFHLE1BQU0sQ0FBQztBQUFBLEVBQ1gsTUFBTTtBQUFBLEVBQ04sT0FBTztBQUFBLElBQ0wsUUFBUTtBQUFBLElBQ1IsV0FBVztBQUFBLEVBQ2I7QUFDRixDQUFDOyIsCiAgIm5hbWVzIjogW10KfQo=
